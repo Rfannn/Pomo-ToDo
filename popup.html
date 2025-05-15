@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>🍅 Pomodoro / To-Do-List</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="container">
+
+    <div class="header">
+      <h1>🍅 Pomo-ToDo</h1>
+      <button id="dark-mode-toggle" class="dark-mode-toggle">🌛</button>
+    </div>
+
+    <div id="timer" contenteditable="true">25:00</div>
+
+    <div class="controls">
+      <button class="preset" data-minutes="5">5</button>
+      <button class="preset" data-minutes="15">15</button>
+      <button class="preset" data-minutes="25">25</button>
+      <button class="preset" data-minutes="50">50</button>
+    </div>
+
+    <div class="actions">
+      <button id="start">▶️ Start</button>
+      <button id="reset">🔁 Reset</button>
+    </div>
+
+    <h2>📝 Todo List</h2>
+    <div class="todo">
+      <div class="todo-input-row">
+        <input type="text" id="new-task" placeholder="Add a task 📝" />
+        <button id="add-task">➕</button>
+      </div>
+      <ul id="task-list"></ul>
+    </div>
+  </div>
+
+  <script src="popup.js"></script>
+
+
+  <footer style="text-align:center; margin-top:20px; font-size:0.9rem; color:#555;">
+    Developed by <a href="https://github.com/Rfannn" target="_blank" rel="noopener noreferrer" style="color:#ff7f50; text-decoration:none;">Rfan</a>
+  </footer>
+</body>
+</html>
+
+
+
+
+<!--   <footer style="text-align:center; margin-top:20px; font-size:0.9rem; color:#555;">
+    Developed by <a href="https://github.com/Rfannn" target="_blank" rel="noopener noreferrer" style="color:#ff7f50; text-decoration:none;">Rfan</a>
+  </footer> 
+  -->
